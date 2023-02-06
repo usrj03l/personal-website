@@ -1,5 +1,6 @@
 body {
   background-color: #ecf9ff;
+  margin: 0%;
 }
 
 img {
@@ -23,4 +24,23 @@ img {
   height: 3rem;
   width: 7rem;
   border-radius: 20%;
+}
+
+.footer {
+  background-color: rgb(23, 58, 122);
+  margin-top: 3%;
+  padding-bottom: 4rem;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.footer-link {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 2%;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  color: blueviolet;
 }
