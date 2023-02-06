@@ -1,0 +1,26 @@
+body {
+  background-color: #ecf9ff;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.head,
+.mid,
+.bottom {
+  margin: 2rem;
+}
+
+.main-info {
+  padding-left: 3%;
+}
+
+.btn {
+  position: relative;
+  left: 300%;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 20%;
+}
