@@ -8,14 +8,30 @@ img {
   width: 150px;
 }
 
-.head,
-.mid,
-.bottom {
+.desc {
   margin: 2rem;
 }
 
 .main-info {
   padding-left: 3%;
+}
+
+.msg {
+  line-height: 3rem;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(23, 58, 122);
+  padding: 2%;
+} 
+
+.navref{
+  padding-right: 2%;
+  font-size: larger;
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .btn {

@@ -8,28 +8,45 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Contact Details</h1>
-    <ul>
-      <li>Email: officialrj815@gmail.com</li>
-      <li>Phone: 9978457812</li>
-    </ul>
+    <nav class="navbar">
+      <a class="navref" href="./index.html">Home</a>
+      <a class="navref" href="./contact.html">Contact Me</a>
+    </nav>
+
+    <div class="desc">
+      <h1>Contact Details</h1>
+      <ul>
+        <li>Email: officialrj815@gmail.com</li>
+        <li>Phone: 9978457812</li>
+      </ul>
+    </div>
     <hr size="2" noshade="" />
 
-    <form action="mailto:officialrj815@gmail.com" enctype="text/plain" method="post">
-      <table>
-        <tr>
-          <td><label for="name">Your name:</label></td>
-          <td><input type="text" name="name" value="" /> <br /></td>
-        </tr>
-        <tr>
-          <td><label for="email">Your Email:</label></td>
-          <td><input type="email" name="email" value="" /> <br /></td>
-        </tr>
-      </table>
-      <label for="msg">Your messsage:</label>
-      <br />
-      <textarea name="msg" cols="30" rows="10"></textarea><br />
-      <input type="submit" />
-    </form>
+    <div class="desc">
+      <form action="mailto:officialrj815@gmail.com" enctype="text/plain" method="post">
+        <table>
+          <tr>
+            <td><label for="name">Your name:</label></td>
+            <td><input type="text" name="name" value="" /> <br /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Your Email:</label></td>
+            <td><input type="email" name="email" value="" /> <br /></td>
+          </tr>
+        </table>
+        <div class="msg">
+          <label for="msg">Your messsage:</label>
+          <br />
+          <textarea name="msg" cols="30" rows="10"></textarea><br />
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <a class="footer-link" href="https://www.facebook.com/joeldjr">Facebook</a>
+      <a class="footer-link" href="https://twitter.com/Joelrj6">Twitter</a>
+      <a class="footer-link" href="https://www.instagram.com/_.joel._rj/">Instagram</a>
+      <p class="footer-para">© Joel reji</p>
+    </div>
   </body>
 </html>
